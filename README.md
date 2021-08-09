@@ -14,7 +14,7 @@ Publish the assets files with:
 php artisan vendor:publish --provider=Arpanext\\Swagger\\Consoles\\Ui\\App\\Providers\\AppServiceProvider --tag="swagger-consoles-ui"
 ```
 
-Update the config file in config/vendor/arpanext/swagger/consoles.php:
+Update the config file in config/vendor/arpanext/swagger/consoles/ui/consoles.php:
 
 ```php
 return [
